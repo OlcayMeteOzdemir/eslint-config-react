@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "12:00"
+      timezone: "Europe/Istanbul"
+    labels:
+      - "npm"
+      - "dependencies"
+    reviewers:
+      - "OlcayMeteOzdemir"
+    open-pull-requests-limit: 10
+    versioning-strategy: "increase"
