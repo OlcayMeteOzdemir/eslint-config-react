@@ -22,7 +22,9 @@
 	"author": "Olcay Mete Ozdemir",
 	"license": "MIT",
 	"homepage": "https://github.com/OlcayMeteOzdemir/eslint-config-react#readme",
-	"dependencies": {},
+	"dependencies": {
+		"@meteozdemir/eslint-config-core": "^1.0.0"
+	},
 	"devDependencies": {
 		"@meteozdemir/markdownlint-config-core": "^1.0.0",
 		"@meteozdemir/prettier-config-core": "^1.0.0",
