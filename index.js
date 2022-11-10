@@ -4,6 +4,7 @@ module.exports = {
 		'./rules/core',
 		'./rules/react',
 		'./rules/react-hooks',
+		'./rules/jsx-a11y',
 	],
 	parserOptions: {
 		ecmaFeatures: {
