@@ -1,0 +1,43 @@
+# Windows Files
+Thumbs.db
+Thumbs.db:encryptable
+[Dd]esktop.ini
+
+# Mac OS X Files
+._*
+.DS_Store
+.Spotlight-V100
+
+# Linux Files
+*~
+
+# Visual Studio Code Files
+.vscode
+
+# Installer Files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Other Files
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+
+# Node Files
+node_modules
+
+# NPM Files
+package-lock.json
+
+# Yarn Files
+yarn.lock
