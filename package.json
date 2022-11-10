@@ -12,7 +12,8 @@
 		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
 		"rules-unused": "eslint-find-rules -u .eslintrc.js",
 		"rules-deprecated": "eslint-find-rules -d .eslintrc.js",
-		"rules-plugin": "eslint-find-rules -p .eslintrc.js"
+		"rules-plugin": "eslint-find-rules -p .eslintrc.js",
+		"postinstall": "node ./scripts/postinstall.js"
 	},
 	"repository": {
 		"type": "git",
