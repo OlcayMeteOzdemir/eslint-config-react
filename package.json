@@ -4,10 +4,15 @@
 	"description": "Custom ESLint settings for React as an extensible shared config.",
 	"main": "index.js",
 	"scripts": {
+		"js-lint": "eslint **/*.{js,jsx,cjs,mjs,ts}",
+		"js-fix": "eslint --fix **/*.{js,jsx,cjs,mjs,ts}",
 		"md-lint": "markdownlint **/*.md",
 		"md-fix": "markdownlint --fix **/*.md",
 		"prettier-lint": "prettier --check **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
-		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}"
+		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
+		"rules-unused": "eslint-find-rules -u .eslintrc.js",
+		"rules-deprecated": "eslint-find-rules -d .eslintrc.js",
+		"rules-plugin": "eslint-find-rules -p .eslintrc.js"
 	},
 	"repository": {
 		"type": "git",
@@ -28,8 +33,22 @@
 	"devDependencies": {
 		"@meteozdemir/markdownlint-config-core": "^1.0.0",
 		"@meteozdemir/prettier-config-core": "^1.0.0",
+		"eslint": "^8.27.0",
+		"eslint-find-rules": "^4.1.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.31.10",
+		"eslint-plugin-react-hooks": "^4.6.0",
 		"markdownlint-cli": "^0.32.2",
 		"prettier": "^2.7.1"
 	},
-	"peerDependencies": {}
+	"peerDependencies": {
+		"eslint": "^8.27.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.31.10",
+		"eslint-plugin-react-hooks": "^4.6.0"
+	}
 }
