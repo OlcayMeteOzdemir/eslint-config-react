@@ -1,0 +1,23 @@
+{
+	"name": "@meteozdemir/eslint-config-react",
+	"version": "1.0.0",
+	"description": "Custom ESLint settings for React as an extensible shared config.",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OlcayMeteOzdemir/eslint-config-react.git"
+	},
+	"keywords": [
+		"javascript",
+		"react",
+		"eslint",
+		"eslint-config"
+	],
+	"author": "Olcay Mete Ozdemir",
+	"license": "MIT",
+	"homepage": "https://github.com/OlcayMeteOzdemir/eslint-config-react#readme",
+	"dependencies": {},
+	"devDependencies": {},
+	"peerDependencies": {}
+}
