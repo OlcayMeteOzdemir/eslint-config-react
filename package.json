@@ -4,6 +4,8 @@
 	"description": "Custom ESLint settings for React as an extensible shared config.",
 	"main": "index.js",
 	"scripts": {
+		"md-lint": "markdownlint **/*.md",
+		"md-fix": "markdownlint --fix **/*.md",
 		"prettier-lint": "prettier --check **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
 		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}"
 	},
@@ -22,7 +24,9 @@
 	"homepage": "https://github.com/OlcayMeteOzdemir/eslint-config-react#readme",
 	"dependencies": {},
 	"devDependencies": {
+		"@meteozdemir/markdownlint-config-core": "^1.0.0",
 		"@meteozdemir/prettier-config-core": "^1.0.0",
+		"markdownlint-cli": "^0.32.2",
 		"prettier": "^2.7.1"
 	},
 	"peerDependencies": {}
