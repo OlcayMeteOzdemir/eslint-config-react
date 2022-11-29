@@ -29,7 +29,7 @@
 	"license": "MIT",
 	"homepage": "https://github.com/OlcayMeteOzdemir/eslint-config-react#readme",
 	"dependencies": {
-		"@meteozdemir/eslint-config-core": "^1.0.0"
+		"@meteozdemir/eslint-config-core": "^1.1.0"
 	},
 	"devDependencies": {
 		"@meteozdemir/markdownlint-config-core": "^1.0.0",
