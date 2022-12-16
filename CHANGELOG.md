@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.3 - December 16, 2022
+
+  - Changed: `react/react-in-jsx-scope` rule disabled
+  - Changed: Some code examples changed from `README.md`
+  - Fixed: Post install script changed for support ES Module
+
 ## v1.0.2 - December 6, 2022
 
   - Updated: ESLint 8.28.0 to 8.29.0
