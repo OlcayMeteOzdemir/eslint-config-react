@@ -25,47 +25,47 @@ npm i -D @meteozdemir/eslint-config-react eslint eslint-plugin-import eslint-plu
 
 ## Usage
 
-A `.eslintrc.js` file will be automatically created in the root of your project with:
+A `.eslintrc` file will be automatically created in the root of your project with:
 
-```javascript
-module.exports = {
-    extends: [
-        '@meteozdemir/eslint-config-react',
-        '@meteozdemir/eslint-config-react/rules/prettier',
+```json
+{
+    "extends": [
+        "@meteozdemir/eslint-config-react",
+        "@meteozdemir/eslint-config-react/rules/prettier"
     ],
-    rules: {},
-};
+    "rules": {}
+}
 ```
 
-If the file is not created automatically by any reason, simply create a `.eslintrc.js` file in the root of project and copy code above.
+If the file is not created automatically by any reason, simply create a `.eslintrc` file in the root of project and copy code above.
 
 ## @meteozdemir/eslint-config-react/rules/prettier
 
 Prettier is enabled by default with this package and `@meteozdemir/eslint-config-react/rules/prettier` disables ESLint rules that might conflict with Prettier.
 
-If you don't want to use Prettier, remove `'@meteozdemir/eslint-config-react/rules/prettier'` from `.eslintrc.js` file.
+If you don't want to use Prettier, remove `'@meteozdemir/eslint-config-react/rules/prettier'` from `.eslintrc` file.
 
-```javascript
-module.exports = {
-    extends: ['@meteozdemir/eslint-config-react'],
-    rules: {},
-};
+```json
+{
+    "extends": ["@meteozdemir/eslint-config-react"],
+    "rules": {}
+}
 ```
 
 ## Rule Override
 
-Add any rule you want to override to rules object in `.eslintrc.js` file.
+Add any rule you want to override to rules object in `.eslintrc` file.
 
-```javascript
-module.exports = {
-    extends: [
-        '@meteozdemir/eslint-config-react',
-        '@meteozdemir/eslint-config-react/rules/prettier',
+```json
+{
+    "extends": [
+        "@meteozdemir/eslint-config-react",
+        "@meteozdemir/eslint-config-react/rules/prettier"
     ],
-    rules: {
+    "rules": {
         // ...
-        'react/jsx-uses-vars': 'off',
-        'react/no-is-mounted': 'off',
-    },
-};
+        "react/jsx-uses-vars": "off",
+        "react/no-is-mounted": "off"
+    }
+}
 ```
