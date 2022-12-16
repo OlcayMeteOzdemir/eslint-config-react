@@ -399,7 +399,7 @@ module.exports = {
 				skipUndeclared: false,
 			},
 		],
-		'react/react-in-jsx-scope': 'error',
+		'react/react-in-jsx-scope': 'off',
 		'react/require-default-props': [
 			'error',
 			{
