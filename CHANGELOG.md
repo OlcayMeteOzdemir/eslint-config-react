@@ -2,6 +2,7 @@
 
 ## v1.0.3 - December 16, 2022
 
+  - Updated: @meteozdemir/eslint-config-core 1.2.0 to 1.2.1
   - Changed: `react/react-in-jsx-scope` rule disabled
   - Changed: Some code examples changed from `README.md`
   - Fixed: Post install script changed for support ES Module
