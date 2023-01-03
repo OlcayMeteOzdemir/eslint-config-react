@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.4 - January 3, 2023
+
+  - Updated: ESLint 8.29.0 to 8.31.0
+  - Updated: @meteozdemir/eslint-config-core 1.2.1 to 1.2.2
+
 ## v1.0.3 - December 16, 2022
 
   - Updated: @meteozdemir/eslint-config-core 1.2.0 to 1.2.1
