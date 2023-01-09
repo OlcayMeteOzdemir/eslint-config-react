@@ -32,7 +32,7 @@
 		"@meteozdemir/eslint-config-core": "^1.2.2"
 	},
 	"devDependencies": {
-		"@meteozdemir/markdownlint-config-core": "^1.0.0",
+		"@meteozdemir/markdownlint-config-core": "^1.0.1",
 		"@meteozdemir/prettier-config-core": "^1.0.4",
 		"eslint": "^8.31.0",
 		"eslint-find-rules": "^4.1.0",
