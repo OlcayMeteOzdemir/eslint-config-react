@@ -1,6 +1,6 @@
 {
 	"name": "@meteozdemir/eslint-config-react",
-	"version": "1.0.4",
+	"version": "1.1.4",
 	"description": "Custom ESLint settings for React as an extensible shared config.",
 	"main": "index.js",
 	"scripts": {
@@ -10,9 +10,9 @@
 		"md-fix": "markdownlint --fix **/*.md",
 		"prettier-lint": "prettier --check **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
 		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
-		"rules-unused": "eslint-find-rules -u .eslintrc.js",
-		"rules-deprecated": "eslint-find-rules -d .eslintrc.js",
-		"rules-plugin": "eslint-find-rules -p .eslintrc.js",
+		"rules-unused": "eslint-find-rules -u .eslintrc",
+		"rules-deprecated": "eslint-find-rules -d .eslintrc",
+		"rules-plugin": "eslint-find-rules -p .eslintrc",
 		"postinstall": "node ./scripts/postinstall.js"
 	},
 	"repository": {
