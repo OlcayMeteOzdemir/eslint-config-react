@@ -11,6 +11,12 @@ module.exports = {
 				'input[type="image"]': [],
 			},
 		],
+		'jsx-a11y/anchor-ambiguous-text': [
+			'off',
+			{
+				words: [],
+			},
+		],
 		'jsx-a11y/anchor-has-content': [
 			'error',
 			{
@@ -175,6 +181,7 @@ module.exports = {
 				allowExpressionValues: false,
 			},
 		],
+		'jsx-a11y/prefer-tag-over-role': 'error',
 		'jsx-a11y/role-has-required-aria-props': 'error',
 		'jsx-a11y/role-supports-aria-props': 'error',
 		'jsx-a11y/scope': 'error',
