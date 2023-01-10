@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.4 - January 10, 2023
+
+  - Updated: eslint-plugin-jsx-a11y 6.6.1 to 6.7.0
+  - Added: `jsx-a11y/anchor-ambiguous-text` rule
+  - Added: `jsx-a11y/prefer-tag-over-role` rule
+
 ## v1.0.4 - January 3, 2023
 
   - Updated: ESLint 8.29.0 to 8.31.0
