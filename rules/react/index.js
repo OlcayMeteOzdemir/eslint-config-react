@@ -90,7 +90,12 @@ module.exports = {
 				unnamedComponents: 'function-expression',
 			},
 		],
-		'react/hook-use-state': 'error',
+		'react/hook-use-state': [
+			'error',
+			{
+				allowDestructuredState: false,
+			},
+		],
 		'react/iframe-missing-sandbox': 'error',
 		'react/jsx-boolean-value': [
 			'error',
@@ -336,6 +341,7 @@ module.exports = {
 			},
 		],
 		'react/no-namespace': 'error',
+		'react/no-object-type-as-default-prop': 'error',
 		'react/no-redundant-should-component-update': 'error',
 		'react/no-render-return-value': 'error',
 		'react/no-set-state': 'off',
