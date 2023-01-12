@@ -1,6 +1,6 @@
 {
 	"name": "@meteozdemir/eslint-config-react",
-	"version": "1.1.4",
+	"version": "1.2.4",
 	"description": "Custom ESLint settings for React as an extensible shared config.",
 	"main": "index.js",
 	"scripts": {
