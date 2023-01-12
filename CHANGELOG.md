@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.2.4 - January 12, 2023
+
+  - Updated: @meteozdemir/eslint-config-core 1.2.2 to 1.3.2
+  - Updated: eslint-plugin-react 7.31.11 to 7.32.0
+  - Updated: eslint-plugin-import 2.26.0 to 2.27.4
+  - Updated: eslint-plugin-jsx-a11y 6.7.0 to 6.7.1
+  - Added: `allowDestructuredState` option to `react/hook-use-state`
+  - Added: `react/no-object-type-as-default-prop` rule
+
 ## v1.1.4 - January 10, 2023
 
   - Updated: eslint-plugin-jsx-a11y 6.6.1 to 6.7.0
