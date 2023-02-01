@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.5 - February 1, 2023
+
+  - Updated: ESLint 8.31.0 to 8.33.0
+  - Updated: @meteozdemir/eslint-config-core 1.3.2 to 1.3.3
+  - Updated: eslint-plugin-react 7.32.0 to 7.32.2
+  - Updated: eslint-plugin-import 2.27.4 to 2.27.5
+
 ## v1.2.4 - January 12, 2023
 
   - Updated: @meteozdemir/eslint-config-core 1.2.2 to 1.3.2
