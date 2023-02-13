@@ -112,6 +112,7 @@ module.exports = {
 		],
 		'jsx-a11y/mouse-events-have-key-events': 'error',
 		'jsx-a11y/no-access-key': 'error',
+		'jsx-a11y/no-aria-hidden-on-focusable': 'error',
 		'jsx-a11y/no-autofocus': [
 			'error',
 			{
